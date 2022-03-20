@@ -1,0 +1,25 @@
+{
+  "name": "vmess or vles",
+  "description": "vmess or vles",
+  "keywords": [
+    "vmess or vless"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "请填小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "",
+      "required": false
+    } 
+  },
+  "website": "https://github.com/mydeploy/v2ray",
+  "repository": "https://github.com/mydeploy/v2ray",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
