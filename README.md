@@ -1,7 +1,3 @@
-### 提醒：滥用可能导致账户被删除！！！ 
-
-将本项目fork或者上传至自己仓库修改为自己仓库地址
-
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/mydeploy/v2ray.git)
 
 ### heroku上部署v2ray
@@ -35,7 +31,8 @@ path路径自动设置为：/UUID-vless 或 /UUID-vmess
 * 跳过证书验证：false
 
 ### CloudFlare Workers反代代码
-</details>
+
+<details>
 <summary>CloudFlare Workers单日反代代码</summary>
 
 ```js
@@ -52,8 +49,8 @@ addEventListener(
 ```
 </details>
 
-</details>
-<summary>CloudFlare Workers单双日轮换反代代码</summary>
+<details>
+<summary>CloudFlare Workers单双日反代代码</summary>
 
 ```js
 const SingleDay = 'app0.herokuapp.com'
