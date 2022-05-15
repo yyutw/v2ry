@@ -29,14 +29,15 @@ path路径自动设置为：/UUID-vless 或 /UUID-vmess
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
-* 伪装host：****.workers.dev(CF Workers反代地址)或者：应用程序名.herokuapp.com
-* SNI地址：****.workers.dev(CF Workers反代地址)或者：应用程序名.herokuapp.com
 * path路径：/自定义UUID码-vless 或 /自定义UUID码-vmess    (注意：前有斜杠/)
 * vmess额外id（alterid）：0
 * 底层传输安全：tls
 * 跳过证书验证：false
 
 ### CloudFlare Workers反代代码
+</details>
+<summary>CloudFlare Workers单日反代代码</summary>
+
 ```js
 addEventListener(
     "fetch",event => {
@@ -49,6 +50,9 @@ addEventListener(
     }
 )
 ```
+</details>
+
+</details>
 <summary>CloudFlare Workers单双日轮换反代代码</summary>
 
 ```js
