@@ -1,4 +1,4 @@
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/mydeploy/v2ray.git)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ccssur/v2ry.git)
 
 ### heroku上部署v2ray
 - [x] 支持VMess和VLESS两种协议
