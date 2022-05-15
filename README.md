@@ -77,7 +77,7 @@ addEventListener(
 </details>
 
 <details>
-<summary>CloudFlare Workers每五天轮换一遍式反代代码</summary>
+<summary>CloudFlare Workers五日轮换反代代码</summary>
 
 ```js
 const Day0 = 'app0.herokuapp.com'
