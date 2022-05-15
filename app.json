@@ -16,8 +16,8 @@
       "required": false
     } 
   },
-  "website": "https://github.com/mydeploy/v2ray",
-  "repository": "https://github.com/mydeploy/v2ray",
+  "website": "https://github.com/ccssur/v2ry",
+  "repository": "https://github.com/ccssur/v2ry",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
